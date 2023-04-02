@@ -1,0 +1,3 @@
+"F:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AudioBeam.dir/objects.a
+F:\mingw\mingw64\bin\ar.exe cr CMakeFiles\AudioBeam.dir/objects.a @CMakeFiles\AudioBeam.dir\objects1.rsp
+F:\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\AudioBeam.dir/objects.a -Wl,--no-whole-archive -o ..\bin\AudioBeam.exe -Wl,--out-implib,libAudioBeam.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AudioBeam.dir\linklibs.rsp

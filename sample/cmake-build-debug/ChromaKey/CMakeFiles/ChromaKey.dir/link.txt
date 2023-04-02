@@ -1,0 +1,3 @@
+"F:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ChromaKey.dir/objects.a
+F:\mingw\mingw64\bin\ar.exe cr CMakeFiles\ChromaKey.dir/objects.a @CMakeFiles\ChromaKey.dir\objects1.rsp
+F:\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ChromaKey.dir/objects.a -Wl,--no-whole-archive -o ..\bin\ChromaKey.exe -Wl,--out-implib,libChromaKey.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ChromaKey.dir\linklibs.rsp

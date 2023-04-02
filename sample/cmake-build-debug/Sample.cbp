@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Color\;CMake Files\OpenCV\;CMake Files\OpenCV\opencv\;CMake Files\OpenCV\opencv\build\;CMake Files\OpenCV\opencv\build\x64\;CMake Files\OpenCV\opencv\build\x64\vc15\;CMake Files\OpenCV\opencv\build\x64\vc15\lib\;CMake Files\Depth\;CMake Files\Infrared\;CMake Files\BodyIndex\;CMake Files\Body\;CMake Files\JointSmooth\;CMake Files\MultiSource\;CMake Files\CoordinateMapper\;CMake Files\Face\;CMake Files\HDFace\;CMake Files\Fusion\;CMake Files\Gesture\;CMake Files\Speech\;CMake Files\AudioBeam\;CMake Files\AudioBody\;CMake Files\ChromaKey\;CMake Files\FaceClip\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Color">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Color.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 Color"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Color/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Color.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 Color/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Depth">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Depth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 Depth"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Depth/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Depth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 Depth/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Depth/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infrared">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Infrared.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 Infrared"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Infrared/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Infrared.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 Infrared/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Infrared/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BodyIndex">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/BodyIndex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 BodyIndex"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BodyIndex/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/BodyIndex.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 BodyIndex/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/BodyIndex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Body">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Body.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 Body"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Body/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Body.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 Body/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Body/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JointSmooth">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/JointSmooth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 JointSmooth"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JointSmooth/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/JointSmooth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 JointSmooth/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/JointSmooth/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiSource">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/MultiSource.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 MultiSource"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultiSource/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/MultiSource.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 MultiSource/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/MultiSource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CoordinateMapper">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/CoordinateMapper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 CoordinateMapper"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CoordinateMapper/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/CoordinateMapper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 CoordinateMapper/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/CoordinateMapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Face">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Face.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 Face"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Face/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Face.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 Face/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Face/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDFace">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/HDFace.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 HDFace"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HDFace/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/HDFace.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 HDFace/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/HDFace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fusion">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Fusion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 Fusion"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fusion/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Fusion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 Fusion/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Fusion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gesture">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Gesture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 Gesture"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gesture/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Gesture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 Gesture/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Gesture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Speech">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Speech.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 Speech"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Speech/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/Speech.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 Speech/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/Speech/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioBeam">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/AudioBeam.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 AudioBeam"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioBeam/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/AudioBeam.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 AudioBeam/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBeam/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioBody">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/AudioBody.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 AudioBody"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AudioBody/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/AudioBody.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 AudioBody/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/AudioBody/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaKey">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/ChromaKey.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 ChromaKey"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChromaKey/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/ChromaKey.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 ChromaKey/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/ChromaKey/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FaceClip">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/FaceClip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 FaceClip"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FaceClip/fast">
+				<Option output="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin/FaceClip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"/>
+					<Add directory="F:/OpenCV/opencv/build/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 FaceClip/fast"/>
+					<CompileFile command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/Kinect/Kinect2Sample-master/sample/cmake-build-debug/FaceClip/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/app.cpp">
+			<Option target="AudioBeam"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/app.h">
+			<Option target="AudioBeam"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/main.cpp">
+			<Option target="AudioBeam"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/util.h">
+			<Option target="AudioBeam"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/app.cpp">
+			<Option target="AudioBody"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/app.h">
+			<Option target="AudioBody"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/main.cpp">
+			<Option target="AudioBody"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/util.h">
+			<Option target="AudioBody"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/app.cpp">
+			<Option target="Body"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/app.h">
+			<Option target="Body"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/main.cpp">
+			<Option target="Body"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/util.h">
+			<Option target="Body"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/app.cpp">
+			<Option target="BodyIndex"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/app.h">
+			<Option target="BodyIndex"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/main.cpp">
+			<Option target="BodyIndex"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/util.h">
+			<Option target="BodyIndex"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/app.cpp">
+			<Option target="ChromaKey"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/app.h">
+			<Option target="ChromaKey"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/main.cpp">
+			<Option target="ChromaKey"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/util.h">
+			<Option target="ChromaKey"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/app.cpp">
+			<Option target="Color"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/app.h">
+			<Option target="Color"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/main.cpp">
+			<Option target="Color"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/util.h">
+			<Option target="Color"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/app.cpp">
+			<Option target="CoordinateMapper"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/app.h">
+			<Option target="CoordinateMapper"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/main.cpp">
+			<Option target="CoordinateMapper"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/util.h">
+			<Option target="CoordinateMapper"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/app.cpp">
+			<Option target="Depth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/app.h">
+			<Option target="Depth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/main.cpp">
+			<Option target="Depth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/util.h">
+			<Option target="Depth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/app.cpp">
+			<Option target="Face"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/app.h">
+			<Option target="Face"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/main.cpp">
+			<Option target="Face"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/util.h">
+			<Option target="Face"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/app.cpp">
+			<Option target="FaceClip"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/app.h">
+			<Option target="FaceClip"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/main.cpp">
+			<Option target="FaceClip"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/util.h">
+			<Option target="FaceClip"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/KinectFusionHelper.cpp">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/KinectFusionHelper.h">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/app.cpp">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/app.h">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/main.cpp">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/util.h">
+			<Option target="Fusion"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/app.cpp">
+			<Option target="Gesture"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/app.h">
+			<Option target="Gesture"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/main.cpp">
+			<Option target="Gesture"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/util.h">
+			<Option target="Gesture"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/app.cpp">
+			<Option target="HDFace"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/app.h">
+			<Option target="HDFace"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/main.cpp">
+			<Option target="HDFace"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/util.h">
+			<Option target="HDFace"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/app.cpp">
+			<Option target="Infrared"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/app.h">
+			<Option target="Infrared"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/main.cpp">
+			<Option target="Infrared"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/util.h">
+			<Option target="Infrared"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/KinectJointFilter.cpp">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/KinectJointFilter.h">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/app.cpp">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/app.h">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/main.cpp">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/util.h">
+			<Option target="JointSmooth"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/app.cpp">
+			<Option target="MultiSource"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/app.h">
+			<Option target="MultiSource"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/main.cpp">
+			<Option target="MultiSource"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/util.h">
+			<Option target="MultiSource"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/KinectAudioStream.cpp">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/KinectAudioStream.h">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/app.cpp">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/app.h">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/main.cpp">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/util.h">
+			<Option target="Speech"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Color\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Color/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Color\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/OpenCV/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\OpenCV\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/OpenCV/opencv/build/x64/vc15/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\OpenCV\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/OpenCV/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake">
+			<Option virtualFolder="CMake Files\OpenCV\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/OpenCV/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\OpenCV\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/OpenCV/opencv/build/x64/vc15/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\OpenCV\opencv\build\x64\vc15\lib\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Depth\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Depth/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Depth\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Infrared\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Infrared/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Infrared\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BodyIndex\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/BodyIndex/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\BodyIndex\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Body\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Body/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Body\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JointSmooth\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/JointSmooth/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\JointSmooth\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MultiSource\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/MultiSource/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\MultiSource\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CoordinateMapper\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/CoordinateMapper/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\CoordinateMapper\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Face\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Face/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Face\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HDFace\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/HDFace/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\HDFace\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Fusion\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Fusion/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Fusion\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Gesture\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Gesture/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Gesture\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Speech\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\Speech\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/Speech/FindSpeechPlatformSDK.cmake">
+			<Option virtualFolder="CMake Files\Speech\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AudioBeam\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBeam/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\AudioBeam\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AudioBody\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/AudioBody/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\AudioBody\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ChromaKey\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/ChromaKey/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\ChromaKey\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FaceClip\"/>
+		</Unit>
+		<Unit filename="E:/Kinect/Kinect2Sample-master/sample/FaceClip/FindKinectSDK2.cmake">
+			<Option virtualFolder="CMake Files\FaceClip\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

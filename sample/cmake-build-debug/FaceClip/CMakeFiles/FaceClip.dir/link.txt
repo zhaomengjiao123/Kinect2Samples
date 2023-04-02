@@ -1,0 +1,3 @@
+"F:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\FaceClip.dir/objects.a
+F:\mingw\mingw64\bin\ar.exe cr CMakeFiles\FaceClip.dir/objects.a @CMakeFiles\FaceClip.dir\objects1.rsp
+F:\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FaceClip.dir/objects.a -Wl,--no-whole-archive -o ..\bin\FaceClip.exe -Wl,--out-implib,libFaceClip.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FaceClip.dir\linklibs.rsp

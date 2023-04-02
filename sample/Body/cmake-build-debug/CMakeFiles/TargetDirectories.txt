@@ -1,0 +1,3 @@
+E:/我爱学习/人机交互/赵梦娇实验/Kinect2Sample/Kinect2Sample-master/sample/Body/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/我爱学习/人机交互/赵梦娇实验/Kinect2Sample/Kinect2Sample-master/sample/Body/cmake-build-debug/CMakeFiles/Body.dir
+E:/我爱学习/人机交互/赵梦娇实验/Kinect2Sample/Kinect2Sample-master/sample/Body/cmake-build-debug/CMakeFiles/edit_cache.dir

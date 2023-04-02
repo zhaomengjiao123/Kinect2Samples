@@ -1,0 +1,3 @@
+"F:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BodyIndex.dir/objects.a
+F:\mingw\mingw64\bin\ar.exe cr CMakeFiles\BodyIndex.dir/objects.a @CMakeFiles\BodyIndex.dir\objects1.rsp
+F:\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BodyIndex.dir/objects.a -Wl,--no-whole-archive -o ..\bin\BodyIndex.exe -Wl,--out-implib,libBodyIndex.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BodyIndex.dir\linklibs.rsp
